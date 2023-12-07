@@ -29,3 +29,12 @@ body{
     justify-content: center;
    align-items: center;
 }
+.social-media .facebook a:hover{
+background:#2c3e50;
+}
+.social-media a i{
+    transition: 0.5s all;
+}
+.social-media a:hover > i{
+    transform:scale(1.6) rotate(360deg);
+}
